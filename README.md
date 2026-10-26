@@ -6,7 +6,7 @@ Turns business information that arrives by email into governed Snowflake Data Pr
 
 Business teams send invoices, quality certificates, feed plans and similar documents by email. The platform keeps every original, extracts structured data, validates it, routes low-confidence results to a person for review, and writes approved data into the Business Schema of the owning Business Unit. Every step is audited and can be replayed.
 
-**Status:** design phase. The domain model and architecture decisions are agreed. There is no implementation code yet. The build spec is [issue #2](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues/2).
+**Status:** design phase. The domain model and architecture decisions are agreed. There is no implementation code yet. The build spec is [issue #2](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues/2). Its open decisions are being worked through the pilot map, [Pilot: Agri Feed Planning and 3PL running end-to-end in DEV](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues/4).
 
 ---
 
@@ -226,4 +226,4 @@ Out of scope for the first build:
 - **Issues and specs** live in [GitHub Issues](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues). See [`docs/agents/issue-tracker.md`](docs/agents/issue-tracker.md).
 - **Triage labels:** `needs-triage`, `needs-info`, `ready-for-agent`, `ready-for-human`, `wontfix`. See [`docs/agents/triage-labels.md`](docs/agents/triage-labels.md).
 - **Language:** when a new domain term is agreed, add it to `GLOSSARY.md`. When a hard-to-reverse decision is made, add an ADR.
-- **Next step:** split [issue #2](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues/2) into tracer-bullet tickets.
+- **Current effort:** the wayfinder map [Pilot: Agri Feed Planning and 3PL running end-to-end in DEV](https://github.com/Pilgrims-Europe/pilgrims-submission-platform/issues/4). Run `/wayfinder` with the map to take the next frontier ticket. Research findings live on `research/*` branches and are linked from their tickets.
