@@ -2,7 +2,7 @@
 
 ### Issue tracker
 
-Issues live in GitHub Issues (PEUcmccann/pilgrims-submission-platform), via the `gh` CLI. See `docs/agents/issue-tracker.md`.
+Issues live in GitHub Issues (Pilgrims-Europe/pilgrims-submission-platform), via the `gh` CLI. See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 
