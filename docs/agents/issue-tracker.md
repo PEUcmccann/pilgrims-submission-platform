@@ -13,6 +13,8 @@ Issues and specs for this repo live as GitHub issues. Use the `gh` CLI for all o
 
 Infer the repo from `git remote -v`; `gh` does this automatically when run inside a clone.
 
+**Agent shells on Windows:** interactive `gh` commands (`gh issue create`, `gh issue comment`) can hang waiting for a terminal. Instead, write the payload to a JSON file and call `gh api --method POST repos/<owner>/<repo>/issues --input <file>` (or `.../issues/<n>/comments`), and pipe all `gh` output through `| cat`. Sub-issues and native issue dependencies both work on this repo through `gh api`.
+
 ## Pull requests as a triage surface
 
 **PRs as a request surface: no.** _(Set to `yes` if this repo treats external PRs as feature requests; `/triage` reads this flag.)_
